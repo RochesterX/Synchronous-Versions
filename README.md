@@ -1,4 +1,4 @@
-**This repository is no longer being maintained. It contains versions from b0.1 to b0.11. Please download the most recent version from itch.io (rochesterx.itch.io/synchronous).**
+**This repository is occasionally being maintained. It contains versions from `b0.0` to `b0.14 pre8`. Please download the most recent version from itch.io (rochesterx.itch.io/synchronous).**
 
 The build history for **Synchronous** (previously **Synchronous: The Metal Box Game**) (previously **The Metal Box Game**)! It features **Windows** builds of all versions, but you can see the full list of platforms below.
 
