@@ -1,0 +1,21 @@
+[DEFAULT]
+user=ocid1.user.oc1..aaaaaaaakifvhqt3fuerecqcttejir5be4k2hinj4unkupb4zgplem2iji6q
+fingerprint=9e:5c:19:a7:bb:87:69:6d:71:04:92:d7:19:8a:6e:4d
+tenancy=ocid1.tenancy.oc1..aaaaaaaazn3dcbnzcdnoy37ayfe3yddq3vxzye6sggnudvja3axgkt7ts3la
+region=us-ashburn-1
+key_file=<path to your private keyfile> # TODO
+
+
+oci compute instance launch \
+ --availability-domain $A \
+ --compartment-id $C \
+ --shape VM.Standard.A1.Flex \
+ --subnet-id $S \
+ --assign-private-dns-record true \
+ --assign-public-ip true \
+ --availability-config file://~/.oci/availabilityConfig.json \
+ --display-name minecraft-server \
+ --image-id $I \
+ --instance-options file://~/.oci/instanceOptions.json \
+ --shape-config file://~/.oci/shapeConfig.json \
+ --ssh-authorized-keys-file ~/.oci/key.pub
